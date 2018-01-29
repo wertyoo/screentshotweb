@@ -1,0 +1,29 @@
+{
+  "name": "lamarscreenshot",
+  "version": "1.0.0",
+  "description": "An app that allows you to take screenshots of an HTML page",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wertyoo/lamarscreenshot.git"
+  },
+  "keywords": [
+    "Node",
+    "PhantomJS",
+    "screenshot"
+  ],
+  "author": "Nicolas Copia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wertyoo/lamarscreenshot/issues"
+  },
+  "homepage": "https://github.com/wertyoo/lamarscreenshot#readme",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "pageres": "^4.5.1"
+  }
+}
